@@ -1,0 +1,90 @@
+/* Typograpy */
+
+body {
+    font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Inter", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+    color: #222;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-weight: 700;
+  }
+  
+  /* Topbar */
+  
+  .navbar {
+    border-bottom: 1px solid lightgray;
+    padding: 2rem 0;
+  
+    font-size: 1.5rem;
+    word-spacing: 8px;
+  
+    background-color: white;
+    z-index: 1;
+    
+    margin-bottom: 2rem;
+  }
+  
+  .navname {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  
+    word-spacing: 0px;
+  }
+  
+  a.navlink {
+    text-decoration: none;
+  }
+  
+  /* Main */
+  
+  div.profile {
+    background-color: aqua;
+    width: 100%;
+    padding-top: 2%;
+  }
+  
+  /* Links */
+  a {
+    color: #82685E; }
+  a:hover {
+    color: #BF9F92;
+  }
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+}
+
+.card-container {
+    display: flex;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+.card {
+    display: block;
+    padding: 1rem 1.5rem;
+    font-size: 90%;
+    border: 1px solid #E1E1E1;
+    border-radius: 4px;
+    margin-right: 2rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    color: #82685E;
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+a.card-link {
+  color: #1EAEDB; }
+a.card-link:hover {
+  color: #0FA0CE; }
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;}
